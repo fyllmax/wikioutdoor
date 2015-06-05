@@ -155,11 +155,11 @@ h1.explore2 {
 }
 
 .button-wrap {
-    width: 100%;
+    margin-right: 5px;
     background-color: #55d737;
     color: white;
     widows: 100%;
-    border: none
+    border: none;
 }
 
 .button-wrap:hover {
