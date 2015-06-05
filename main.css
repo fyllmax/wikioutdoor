@@ -155,5 +155,13 @@ h1.explore2 {
 }
 
 #button-wrap {
+    width: 100%;
+    background-color: #55d737;
+    color: white;
+    widows: 100%;
+    border: none
+}
 
+#button-wrap:hover {
+    background: tomato;
 }
