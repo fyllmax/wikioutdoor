@@ -1,0 +1,159 @@
+body {
+    background: none repeat scroll 0 0 black;
+    color: #EEEEEE;
+    font-family: Helvetica;
+    font-size: 23px;
+    min-height: 100%;
+    margin: 0;
+
+}
+body, html {
+    min-height: 100%;
+    width: 100%;
+}
+
+div.top {
+    position:relative;
+    background-color: #00b7ef;
+    height: 800px;
+    width: auto;
+    text-align: center;
+
+}
+
+div.bottom {
+    position:relative;
+    background-color: black;
+    height: 800px;
+    width: auto;
+
+}
+
+input {
+    padding: 14px;
+    vertical-align: baseline;
+    border-radius: 5px;
+    font-size: 16px;
+    border: 1px;
+    text-align: center;
+
+}
+
+button {
+
+    background: limegreen;
+    color: white;
+    text-align: auto;
+    border: 2px solid limegreen;
+    border-radius: 5px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover{
+    background:orange;
+    border: 2px solid orange;
+}
+
+iframe {
+    padding-top: 100px;
+}
+
+.wrapper {
+    display:block;
+}
+
+.button-facebook {
+    background: none repeat scroll 0 0 #F9A34D;
+    border-radius: 3px;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-right: 10px;
+    transition: background 0.2s ease 0s;
+}
+.icon-facebook {
+      content: "";
+}
+#teaser{
+}
+
+#video {
+}
+
+#social {
+}
+
+.icon-arrow-down:before, .scroll-indicator:before {
+    content: "\25BC";
+}
+
+.scroll-indicator {
+    animation: 1s ease-in-out 0s alternate-reverse none infinite float;
+    bottom: 5px;
+    color: #ED8F22;
+    display: inline-block;
+    font-family: 'socia-icons';
+    font-size: 60px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: normal;
+    line-height: 1;
+    position: absolute;
+    right: 10px;
+    text-transform: none;
+}
+
+/*#logo {
+    background-image: url("file:///C:/Users/Andre/Desktop/OTHER/WIKI%20OUTDOOR/LOGOS/wikiOutdoor%20Small.png");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+}*/
+#logo {
+    float:left;
+    display:block;
+    margin-left: 30%;
+    padding-right: 30px;
+}
+#logo img {
+    height: 400px;
+}
+
+pre {
+    font-family: inherit;
+    margin-bottom: -20px;
+    padding-top: 80px;
+    line-height: 40px;
+}
+
+h1.explore1 {
+    text-align: center;
+    font-family: Helvetica;
+    padding-top: 50px;
+}
+
+h1.explore2 {
+    text-align: center;
+    font-family: Helvetica;
+    padding-bottom: 25px;
+    margin: 0px;
+}
+
+#screenshot {
+}
+
+#sub {
+}
+
+#email-wrap {
+    float: left;
+
+}
+
+#button-wrap {
+
+}
